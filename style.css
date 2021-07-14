@@ -185,3 +185,22 @@ footer img {
 .social-icon {
   width: 1250px;
 }
+
+/* mobile devices */
+@media only screen and max-width:688 {
+  .container {
+    width: 100%;
+  }
+  .menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner img {
+    display: flex;
+  }
+  .partner {
+    display: flex;
+    margin-left: 400px;
+  }
+}
